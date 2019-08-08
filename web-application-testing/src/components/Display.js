@@ -1,10 +1,12 @@
-import React from 'react'
+import React from "react"
 
 const Display = props => {
-    return (
-        <div>Strike: {props.strike}</div>
-        <div>Balls: {props.ball}</div>
-    )
+  return (
+    <div>
+      <div>Strike: {props.strike}</div>
+      <div>Balls: {props.ball}</div>
+    </div>
+  )
 }
 
 export default Display
