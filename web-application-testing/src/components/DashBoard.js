@@ -5,7 +5,7 @@ const DashBoard = () => {
   const [strike, setStrike] = useState(0)
   const [ball, setBall] = useState(0)
 
-  function Strike(){
+  function Strike() {
     if (strike < 3) {
       setStrike(strike + 1)
     }

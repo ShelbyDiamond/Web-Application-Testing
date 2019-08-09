@@ -1,6 +1,6 @@
 import React from "react"
 
-const Display = props => {
+const Display = (props) => {
   return (
     <div>
       <div>Strike: {props.strike}</div>
